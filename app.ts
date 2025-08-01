@@ -30,7 +30,6 @@ let currentMode = Mode.Summer;
 
 const clickHandler = (mode: Mode) => {
     return () => {
-        console.log(mode, currentMode, audioElement.paused, audioElement.currentSrc);
         if(currentMode !== mode){
             audioElement.src = sourceMap[mode].audio;
             audioElement.play();

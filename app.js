@@ -13,22 +13,21 @@ var Mode;
 })(Mode || (Mode = {}));
 var sourceMap = (_a = {},
     _a[Mode.Summer] = {
-        audio: "./assets/sounds/summer.mp3",
-        background: "./assets/summer-bg.jpg"
+        audio: "assets/sounds/summer.mp3",
+        background: "assets/summer-bg.jpg"
     },
     _a[Mode.Rainy] = {
-        audio: "./assets/sounds/rain.mp3",
-        background: "./assets/rainy-bg.jpg"
+        audio: "assets/sounds/rain.mp3",
+        background: "assets/rainy-bg.jpg"
     },
     _a[Mode.Winter] = {
-        audio: "./assets/sounds/winter.mp3",
-        background: "./assets/winter-bg.jpg"
+        audio: "assets/sounds/winter.mp3",
+        background: "assets/winter-bg.jpg"
     },
     _a);
 var currentMode = Mode.Summer;
 var clickHandler = function (mode) {
     return function () {
-        console.log(mode, currentMode, audioElement.paused, audioElement.currentSrc);
         if (currentMode !== mode) {
             audioElement.src = sourceMap[mode].audio;
             audioElement.play();

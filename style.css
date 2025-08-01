@@ -68,11 +68,11 @@ html {
 }
 
 .button-summer {
-    background-image: url("assets/summer-bg.jpg");
+    background-image: url("/assets/summer-bg.jpg");
 }
 .button-rainy {
-    background-image: url("assets/rainy-bg.jpg");
+    background-image: url("/assets/rainy-bg.jpg");
 }
 .button-winter {
-    background-image: url("assets/winter-bg.jpg");
+    background-image: url("/assets/winter-bg.jpg");
 }
