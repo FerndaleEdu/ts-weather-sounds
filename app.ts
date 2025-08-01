@@ -13,16 +13,16 @@ enum Mode {
 }
 const sourceMap = {
     [Mode.Summer]: {
-        audio: "/assets/sounds/summer.mp3",
-        background: "/assets/summer-bg.jpg"
+        audio: "./assets/sounds/summer.mp3",
+        background: "./assets/summer-bg.jpg"
     },
     [Mode.Rainy]: {
-        audio: "/assets/sounds/rain.mp3",
-        background: "/assets/rainy-bg.jpg"
+        audio: "./assets/sounds/rain.mp3",
+        background: "./assets/rainy-bg.jpg"
     },
     [Mode.Winter]: {
-        audio: "/assets/sounds/winter.mp3",
-        background: "/assets/winter-bg.jpg"
+        audio: "./assets/sounds/winter.mp3",
+        background: "./assets/winter-bg.jpg"
     }
 }
 

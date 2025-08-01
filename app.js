@@ -1,10 +1,10 @@
 var _a;
 var audioElement = document.getElementById("audio");
+var volumeRange = document.getElementById("volumeRange");
+var background = document.getElementById("backgroundImg");
 var summerButton = document.getElementById("summerButton");
 var rainyButton = document.getElementById("rainyButton");
 var winterButton = document.getElementById("winterButton");
-var volumeRange = document.getElementById("volumeRange");
-var background = document.getElementById("backgroundImg");
 var Mode;
 (function (Mode) {
     Mode["Summer"] = "SUMMER";
@@ -13,16 +13,16 @@ var Mode;
 })(Mode || (Mode = {}));
 var sourceMap = (_a = {},
     _a[Mode.Summer] = {
-        audio: "/assets/sounds/summer.mp3",
-        background: "/assets/summer-bg.jpg"
+        audio: "./assets/sounds/summer.mp3",
+        background: "./assets/summer-bg.jpg"
     },
     _a[Mode.Rainy] = {
-        audio: "/assets/sounds/rain.mp3",
-        background: "/assets/rainy-bg.jpg"
+        audio: "./assets/sounds/rain.mp3",
+        background: "./assets/rainy-bg.jpg"
     },
     _a[Mode.Winter] = {
-        audio: "/assets/sounds/winter.mp3",
-        background: "/assets/winter-bg.jpg"
+        audio: "./assets/sounds/winter.mp3",
+        background: "./assets/winter-bg.jpg"
     },
     _a);
 var currentMode = Mode.Summer;
