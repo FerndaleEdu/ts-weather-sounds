@@ -33,15 +33,6 @@ html {
 
     z-index: -1;
 }
-.background-summer {
-    background-image: url("/assets/summer-bg.jpg");
-}
-.background-rainy {
-    background-image: url("/assets/rainy-bg.jpg");
-}
-.background-winter {
-    background-image: url("/assets/winter-bg.jpg");
-}
 
 .main {
     width: 100vw;
@@ -77,11 +68,11 @@ html {
 }
 
 .button-summer {
-    background-image: url("/assets/summer-bg.jpg");
+    background-image: url("assets/summer-bg.jpg");
 }
 .button-rainy {
-    background-image: url("/assets/rainy-bg.jpg");
+    background-image: url("assets/rainy-bg.jpg");
 }
 .button-winter {
-    background-image: url("/assets/winter-bg.jpg");
+    background-image: url("assets/winter-bg.jpg");
 }
